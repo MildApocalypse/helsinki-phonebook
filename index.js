@@ -8,6 +8,7 @@ const token = morgan.token('body', function(req, res) {return JSON.stringify(req
 app.use(express.json())
 app.use(morgan('tiny'))
 app.use(cors())
+app.use(express.static('dist'))
 
 let phonebook = [
     { 
