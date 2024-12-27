@@ -1,7 +1,0 @@
-POST https://helsinki-phonebook-xj78.onrender.com/api/persons
-Content-Type: application/json
-
-{
-    "name": "baz",
-    "number": "13241341321"
-}
